@@ -1,3 +1,0 @@
-TCBLT/assets filter=lfs diff=lfs merge=lfs -text
-TCBLT/index.html filter=lfs diff=lfs merge=lfs -text
-TCBLT/script.js filter=lfs diff=lfs merge=lfs -text
