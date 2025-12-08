@@ -1,13 +1,3 @@
-function scroll(speed) {
-    $('html, body').animate({ scrollTop: $(document).height() - $(window).height() }, speed, function() {
-        $(this).animate({ scrollTop: 0 }, speed);
-    });
-}
-
-speed = 1000;
-
-scroll(speed)
-setInterval(function(){scroll(speed)}, speed * 2);
 
 const container = document.querySelector('section')
 const original = container.querySelector('article')
